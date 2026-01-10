@@ -54,6 +54,17 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Suggestion feature
+
+A few notes about the typeahead suggestion engine used on the Create Ticket page:
+
+- Suggestions are generated from recent tickets and never brute-force compared against the entire database. The repository shortlists candidates (ignore closed tickets, prefer same category when provided, limit to the last 365 days by default, cap candidates at 200).
+- Final ranking mixes token overlap, subject similarity and recency and applies a small threshold to avoid noisy matches.
+- Suggestions respect visibility: **users only see tickets they are allowed to view** (by default this means the ticket creator or users with the `agent` role). This is enforced using the app's authorization policy so behavior follows rules in `TicketPolicy`.
+- The client uses a short debounce (250ms) while typing so suggestions appear responsively without adding excessive server load.
+
+Note: The registration form currently allows selecting `agent` role. This is convenient for local testing but may be a security risk in production; consider restricting agent creation to admins or removing the role selector from the public registration page.
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
