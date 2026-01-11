@@ -581,7 +581,7 @@ php artisan make:seeder SomethingSeeder
 ---
 ### ScreanShots 
 ### Agent Dashboard
-<img width="1896" height="965" alt="Image" src="https://github.com/user-attachments/assets/6e9ac809-d5eb-4402-937e-e19a22145591" />
+<img width="1903" height="969" alt="Image" src="https://github.com/user-attachments/assets/bb7e4d7b-9603-4361-a31e-907ea2943229" />
 
 ### Employee Dashboard
 <img width="1896" height="965" alt="Image" src="https://github.com/user-attachments/assets/6e9ac809-d5eb-4402-937e-e19a22145591" />
