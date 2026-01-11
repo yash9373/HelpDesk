@@ -8,7 +8,7 @@ A Laravel-based help desk ticketing system with intelligent ticket suggestion ca
 - **Complete Ticket Lifecycle**: Open → In Progress → Resolved → Closed
 - **File Attachments**: Upload and manage multiple attachments per ticket
 - **Advanced Filtering**: Search and filter tickets by status, assignment, and keywords
-- **Smart Ticket Suggestions** (Lane 1): AI-powered similar ticket detection to reduce duplicates
+- **Smart Ticket Suggestions** (Lane 1): similar ticket detection to reduce duplicates
 - **Secure Authorization**: Policy-based access control throughout the application
 
 ---
@@ -19,7 +19,7 @@ A Laravel-based help desk ticketing system with intelligent ticket suggestion ca
 - PHP 8.2 or higher
 - Composer
 - Node.js & NPM
-- SQLite (default) or MySQL/PostgreSQL
+- MySQL/PostgreSQL
 
 ### Installation Steps
 
