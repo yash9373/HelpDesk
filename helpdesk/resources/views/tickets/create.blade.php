@@ -50,8 +50,8 @@
 
             <div class="md:col-span-2">
                 <div class="mb-2 flex items-center gap-3">
-                    <button type="button" id="suggest-btn" class="bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded" style="background-color:#2563eb;color:#fff;padding:8px 10px;border-radius:6px;border:1px solid #1e40af;box-shadow:0 1px 2px rgba(0,0,0,0.06);">Get suggestions</button>
-                    <button type="button" id="suggest-debug-toggle" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-2 py-2 rounded text-sm">Debug</button>
+                    <!-- <button type="button" id="suggest-btn" class="bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded" style="background-color:#2563eb;color:#fff;padding:8px 10px;border-radius:6px;border:1px solid #1e40af;box-shadow:0 1px 2px rgba(0,0,0,0.06);">Get suggestions</button>
+                    <button type="button" id="suggest-debug-toggle" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-2 py-2 rounded text-sm">Debug</button> -->
                 </div>
 
                 <div id="suggest-debug" class="mt-2 hidden text-xs text-gray-600">
