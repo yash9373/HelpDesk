@@ -39,7 +39,8 @@ class EloquentTicketRepository implements TicketRepositoryInterface
         if ($count < 10) {
             $query = Ticket::query();
             $query->where('status', '!=', Ticket::STATUS_CLOSED);
-            if ($category) $query->where('category', $category);
+            if ($category)
+                $query->where('category', $category);
             $query->where('created_at', '>=', $from);
             $query->where(function ($q) use ($tokens) {
                 foreach ($tokens as $t) {
@@ -48,7 +49,7 @@ class EloquentTicketRepository implements TicketRepositoryInterface
                 }
             });
         }
-        return $query->orderBy('created_at', 'desc')->limit($limit)->get();
+        return $query->distinct()->orderBy('created_at', 'desc')->limit($limit)->get();
     }
 
     public function find(int $id)
