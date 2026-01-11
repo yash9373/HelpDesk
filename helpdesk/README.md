@@ -579,5 +579,19 @@ php artisan make:seeder SomethingSeeder
 ```
 
 ---
+### ScreanShots 
+### Agent Dashboard
+<img width="1905" height="966" alt="Image" src="https://github.com/user-attachments/assets/d02af7ce-ab14-4d09-a553-707c7fe0c7e1" />
 
+### Employee Dashboard
+<img width="1903" height="969" alt="Image" src="https://github.com/user-attachments/assets/59041522-23e2-47bf-9696-fb8354521edc" />
+
+### Agent ticket Page
+<img width="1885" height="963" alt="Image" src="https://github.com/user-attachments/assets/82bbb0d9-bfd3-4e32-ac6c-1dd8ecbc3f75" />
+
+### Employee ticket page 
+<img width="1890" height="945" alt="Image" src="https://github.com/user-attachments/assets/956f9c1f-8f53-41e8-b341-d83f3ec656c1" />
+
+### Agent Manage Ticekt Page
+<img width="1912" height="974" alt="Image" src="https://github.com/user-attachments/assets/bea56953-02c3-45ff-bd62-27730690dcf9" />
 ---
